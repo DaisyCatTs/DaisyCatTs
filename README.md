@@ -4,12 +4,12 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1400&color=FFB6F9&center=true&vCenter=true&width=800&lines=Daisy+%F0%9F%90%BE;Puppy+Girl+%C2%B7+Developer;Minecraft+Plugin+Developer;Kotlin+%C2%B7+Backend+%C2%B7+Infrastructure;probably+building+something+%3A3" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=28&duration=3000&pause=1400&color=FFB6F9&center=true&vCenter=true&width=800&lines=Daisy+%F0%9F%90%BE;Puppy+Girl+%C2%B7+Developer;Minecraft+Plugin+Developer;Kotlin+%C2%B7+Backend+%C2%B7+Infrastructure;probably+building+something+%3A3" />
 
 <br/><br/>
 
 <a href="https://discord.com/users/295529835764252682">
-  <img src="https://lanyard-profile-readme.vercel.app/api/295529835764252682?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&hideBorder=true&borderRadius=15&idleMessage=%F0%9F%90%BE%20Vibing...%20probably%20coding" />
+  <img src="https://lanyard.cnrad.dev/api/295529835764252682?theme=dark&bg=0d1117&animated=true&hideDiscrim=true&hideBorder=true&borderRadius=15&idleMessage=%F0%9F%90%BE%20Vibing...%20probably%20coding" />
 </a>
 
 <br/><br/>
@@ -27,12 +27,6 @@
 </div>
 
 ---
-
-<div align="center">
-
-### 🐾 `cute aesthetic` · `serious code`
-
-</div>
 
 I'm **Daisy**, a puppy girl and developer from the UK.
 
@@ -124,7 +118,6 @@ I'm usually working on multiple projects at once — some public, some private, 
 - 🐧 Linux enjoyer
 - 💗 Pink is mandatory
 - 🧹 Professional over-engineer
-- 💤 Sleep schedule: questionable
 - 💻 Main language: Kotlin
 - 🔧 If the code annoys me enough, I'm rewriting it
 - :3
