@@ -1,0 +1,51 @@
+name: Profile Activity
+
+on:
+  schedule:
+    # Refresh once per day.
+    - cron: "17 3 * * *"
+
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-activity.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-activity
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Generate contribution calendar
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Generate GitHub activity
+        uses: lowlighter/metrics@latest
+        with:
+          user: DaisyCatTs
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # Output
+          filename: github-activity.svg
+          output_action: commit
+          committer_token: ${{ github.token }}
+          committer_branch: main
+          committer_message: "chore: refresh profile activity [Skip GitHub Action]"
+
+          # Only render the contribution calendar.
+          base: ""
+
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+
+          # Rendering
+          config_timezone: Europe/London
+          config_animations: no
